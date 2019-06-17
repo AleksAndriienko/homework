@@ -15,8 +15,15 @@
 13. Проверю гитхаб и вижу что наши файлы github и ListToDo.txt находятся в директории мастер    AleksAndriienko/homework
 14.Возвращаюсь на локальный гит и делаю изменения в файле ListToDo.txt  , после чего повторно делаю шаги 10,11,12.
 15.На локальном гит перехожу из ветки second в ветку master с помощью команды Git branch master 
-15 В локальном гит обединяю директорию second c директорией master с помощью команды:
+16. В локальном гит обединяю директорию second c директорией master с помощью команды:
     - git merge second 
+После чего получаем сообщение: 
+
+Auto-merging ListToDo.txt
+Merge made by the 'recursive' strategy.
+ ListToDo.txt | 26 ++++++++++++++++++++++++++
+ github       |  1 +
+ 2 files changed, 27 insertions(+)
 
 
 
