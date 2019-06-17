@@ -6,21 +6,22 @@
 5.Check local directory by command "ls" . In directory /Git appear foldef /homework with file
  "github" 
 6.Add new branch with name "second" by command "git branch second"
-7.I check the branch on which I am by command "git branch"
-8.On branch "second" create file with name "ListToDo.txt" in directory /Git/homework by command
+7.Execute command "git checkout second"
+8.I check the branch on which I am by command "git branch"
+9.On branch "second" create file with name "ListToDo.txt" in directory /Git/homework by command
    "touch ListToDo.txt"  
    Finaly, I check by command "ls"  and see that we have  Git/homework github ListToDo.txt
-9. In file "ListToDo.txt" write all operation step-by-step my homework.
-10.Index new file "ListToDo.txt" by command  "git add ListToDo.txt"
-11.Fix changes with a brief description by command "git commit -m "file ListToDo.txt added" "
-12.To do push on Github by command "git push -u origin master":
+10. In file "ListToDo.txt" write all operation step-by-step my homework.
+11.Index new file "ListToDo.txt" by command  "git add ListToDo.txt"
+12.Fix changes with a brief description by command "git commit -m "file ListToDo.txt added" "
+13.To do push on Github by command "git push -u origin master":
     - enter log in and password
-13.Check Github and see, that our file "github" и "ListToDo.txt" is have on directory master
+14.Check Github and see, that our file "github" и "ListToDo.txt" is have on directory master
     AleksAndriienko/homework
-14.Returning to the local git and making changes to the file "ListToDo.txt"  , then repeat the
+15.Returning to the local git and making changes to the file "ListToDo.txt"  , then repeat the
    steps 10,11,12.
-15.In local git move from "second" branch on branch "master" by command "git branch master" 
-16.In local git merge a directory second with directory master by command:
+16.In local git move from "second" branch on branch "master" by command "git branch master" 
+17.In local git merge a directory second with directory master by command:
     - "git merge second" 
 
 After, see message: 
@@ -33,7 +34,7 @@ Merge made by the 'recursive' strategy.
 
 On local git move from  
 
-17. Translate from Russian to English:)
+18. Translate from Russian to English:)
 
 
 
