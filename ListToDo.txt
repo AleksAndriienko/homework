@@ -33,6 +33,7 @@ Merge made by the 'recursive' strategy.
 
 On local git move from  
 
+17. Translate from Russian to English:)
 
 
 
