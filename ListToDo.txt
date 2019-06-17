@@ -1,30 +1,29 @@
-1.Cоздаю репозиторий на гитхаб под названием "homework"
-2.Cоздаю в этом каталоге текстовый файл github
-3.Создаю на локальном гите директорию /Git с помощью команды mkdir Git
-4.Клонирую данный репозиторий из гитхаб на локальный с помощью команды:
-   git clone https://github.com/AleksAndriienko/homework.git
-5.Проверяю локальный каталог с помощью команды ls и вижу что в нашем каталоге /Git появилась 
-  папка /homework c файлом github 
-6.Добавляю новую ветку под названием second помощью команды git branch second
-7.Что бы проверить, на какой ветке мы находимся - использую команду Git branch
-8.На ветке second создаю файл под названием ListToDo.txt в директории /Git/homework c помощью
-   команды touch ListToDo.txt  
-   В итоге проверяю наш каталог с помощью команды ls  вижу что мы имеем  Git/homework github 
-   ListToDo.txt
-9. В фале ListToDo.txt записываю пошагово все операции домашнего задания.
-10.Индексирую новый файл ListToDo.txt с помощью команды git add ListToDo.txt
-11.Фиксирую изменения c кратким описанием с помощью команды git commit -m "file ListToDo.txt added"
-12.Делаю заливку на гитхаб с помощью команды git push -u origin master:
-    - ввожу логин и пароль
-13.Проверю гитхаб и вижу что наши файлы github и ListToDo.txt находятся в директории мастер
+1.Create repository on Github with name "homework"
+2.Create in the homework file "github"
+3.Create on local git a directory /Git by command "mkdir Git"
+4.Clone this repository from Github on local git by command:
+   "git clone https://github.com/AleksAndriienko/homework.git"
+5.Check local directory by command "ls" . In directory /Git appear foldef /homework with file
+ "github" 
+6.Add new branch with name "second" by command "git branch second"
+7.I check the branch on which I am by command "git branch"
+8.On branch "second" create file with name "ListToDo.txt" in directory /Git/homework by command
+   "touch ListToDo.txt"  
+   Finaly, I check by command "ls"  and see that we have  Git/homework github ListToDo.txt
+9. In file "ListToDo.txt" write all operation step-by-step my homework.
+10.Index new file "ListToDo.txt" by command  "git add ListToDo.txt"
+11.Fix changes with a brief description by command "git commit -m "file ListToDo.txt added" "
+12.To do push on Github by command "git push -u origin master":
+    - enter log in and password
+13.Check Github and see, that our file "github" и "ListToDo.txt" is have on directory master
     AleksAndriienko/homework
-14.Возвращаюсь на локальный гит и делаю изменения в файле ListToDo.txt  , после чего повторно
-   делаю шаги 10,11,12.
-15.На локальном гит перехожу из ветки second в ветку master с помощью команды Git branch master 
-16.В локальном гит обединяю директорию second c директорией master с помощью команды:
-    - git merge second 
+14.Returning to the local git and making changes to the file "ListToDo.txt"  , then repeat the
+   steps 10,11,12.
+15.In local git move from "second" branch on branch "master" by command "git branch master" 
+16.In local git merge a directory second with directory master by command:
+    - "git merge second" 
 
-После чего получаем сообщение: 
+After, see message: 
 
 Auto-merging ListToDo.txt
 Merge made by the 'recursive' strategy.
@@ -32,8 +31,7 @@ Merge made by the 'recursive' strategy.
  github       |  1 +
  2 files changed, 27 insertions(+)
 
-
-
+On local git move from  
 
 
 
